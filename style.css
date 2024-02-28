@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+}
+
+.container{
+  background-color: blue;
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+.noticia2{
+  
+  width: 420px;
+  height: 420px;
+  background-color: gray;
+  margin: 20px;
+  border: 10px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.navgaitor{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+
+}
+
+.navgaitor h1{
+  color: white;
+
+}
+
+.navgaitor a{
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  background-color: gray;
+  padding: 15px;
+  border-radius: 20px;
+}
